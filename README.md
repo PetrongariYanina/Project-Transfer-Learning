@@ -13,7 +13,7 @@ El objetivo es construir un modelo que pueda integrarse en plataformas donde los
 
 ## **Etapa 1: Conceptualización del Proyecto**
 
-El modelo elegido es **DistilBERT**, un transformer preentrenado optimizado para tareas de predicción en lenguaje natural y adaptado al español. Este modelo combina eficiencia y precisión, siendo ideal para esta tarea de clasificación binaria.
+El modelo elegido es **DistilBERT**, un transformer preentrenado optimizado para tareas de predicción en lenguaje natural y adaptado al español. Este modelo combina eficiencia y precisión, siendo ideal para esta tarea de clasificación binaria. [Link del modelo](https://huggingface.co/distilbert/distilbert-base-multilingual-cased)
 
 ### **Principales desafíos:**
 - Encontrar un modelo preentrenado en español.
@@ -37,8 +37,9 @@ Se trabajó colaborativamente para resolver problemas emergentes, como la limpie
 ## **Etapa 3: Preparación y Limpieza de los Datos**
 
 ### **Fuentes de Datos**
-- Dos datasets iniciales con entradas (tweets) y salidas (labels) obtenidos de GitHub.  
-- Un dataset adicional de Kaggle, utilizado para pruebas.  
+- Dos datasets iniciales con entradas (tweets) y salidas (labels) obtenidos de GitHub.   [Link al Dataset](https://github.com/Snakelopez1/OffendMex_Dataset)
+- Un dataset adicional de Kaggle, utilizado para pruebas.  [Link al Dataset](https://www.kaggle.com/datasets/ricardomoya/tweets-poltica-espaa/data)
+  
 
 ### **Limpieza de Datos**
 - Limpieza de iconos, url,etc en tweet y eliminación de 2 registros nulos.  
